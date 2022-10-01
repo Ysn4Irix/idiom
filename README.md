@@ -1,5 +1,5 @@
 <p align="center">
- <img width="350px" src="https://res.cloudinary.com/ydevcloud/image/upload/v1664491433/yassi/susj6yvlmhbfwxa6i8uy.svg" align="center" alt="idiom" />
+ <img width="250px" src="https://res.cloudinary.com/ydevcloud/image/upload/v1664491433/yassi/susj6yvlmhbfwxa6i8uy.svg" align="center" alt="idiom" />
 </p>
 
 <br>
@@ -11,11 +11,11 @@
 </p>
 
 <p align="center">
-  <img width="200px" src="https://res.cloudinary.com/ydevcloud/image/upload/v1658183164/yassi/mgkhs4y9ydmoyjyozulf.svg" align="center" alt="nodejs" />
+  <img width="100px" src="https://res.cloudinary.com/ydevcloud/image/upload/v1658183164/yassi/mgkhs4y9ydmoyjyozulf.svg" align="center" alt="nodejs" />
   &nbsp; &nbsp; &nbsp;
-  <img width="150px" src="https://res.cloudinary.com/ydevcloud/image/upload/v1663804918/yassi/mxrjfvymnux04jhjwlh2.svg" align="center" alt="nodejs" />
+  <img width="100px" src="https://res.cloudinary.com/ydevcloud/image/upload/v1663804918/yassi/mxrjfvymnux04jhjwlh2.svg" align="center" alt="svelte" />
   &nbsp; &nbsp; &nbsp;
-  <img width="300px" src="https://res.cloudinary.com/ydevcloud/image/upload/v1660842725/yassi/dglubft3rg2iuh6fxsaf.svg" align="center" alt="tailwind" />
+  <img width="200px" src="https://res.cloudinary.com/ydevcloud/image/upload/v1660842725/yassi/dglubft3rg2iuh6fxsaf.svg" align="center" alt="tailwind" />
 </p>
 
 <br>
