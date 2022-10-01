@@ -1,0 +1,10 @@
+.DS_Store
+server/node_modules
+server/package-lock.json
+
+client/node_modules
+client/build
+client/.svelte-kit
+client/package
+client/.vercel
+client/package-lock.json

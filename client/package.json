@@ -1,0 +1,51 @@
+{
+	"name": "idiom",
+	"description": "a web application to generate unique randomized words & phrases with api endpoints",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev --port 4515",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
+		"lint": "prettier --plugin-search-dir . --check .",
+		"format": "prettier --plugin-search-dir . --write ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Ysn4Irix/idiom.git"
+	},
+	"keywords": [
+		"api",
+		"nodejs",
+		"svelte",
+		"sveltekit",
+		"randomized"
+	],
+	"author": "Ysn4Irix",
+	"license": "MIT",
+	"bugs": {
+		"url": "git+https://github.com/Ysn4Irix/idiom/issues"
+	},
+	"homepage": "https://github.com/Ysn4Irix/idiom#readme",
+	"dependencies": {
+		"daisyui": "^2.31.0"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/adapter-vercel": "^1.0.0-next.77",
+		"@sveltejs/kit": "next",
+		"autoprefixer": "^10.4.12",
+		"postcss": "^8.4.16",
+		"prettier": "^2.7.1",
+		"prettier-plugin-svelte": "^2.7.1",
+		"svelte": "^3.44.0",
+		"svelte-check": "^2.7.1",
+		"svelte-preprocess": "^4.10.7",
+		"tailwindcss": "^3.1.8",
+		"typescript": "^4.7.4",
+		"vite": "^3.1.0"
+	},
+	"type": "module"
+}

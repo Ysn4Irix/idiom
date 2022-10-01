@@ -1,0 +1,44 @@
+{
+	"name": "idiom",
+	"version": "1.0.0",
+	"description": "an lightweight api to generate unique randomized words & phrases",
+	"main": "server.js",
+	"scripts": {
+		"start": "cross-env NODE_ENV=production PORT=4030 node server.js",
+		"dev": "cross-env NODE_ENV=development nodemon server.js",
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Ysn4Irix/idiom.git"
+	},
+	"keywords": [
+		"api",
+		"express",
+		"nodejs"
+	],
+	"author": "Ysn4Irix",
+	"license": "MIT",
+	"bugs": {
+		"url": "git+https://github.com/Ysn4Irix/idiom/issues"
+	},
+	"homepage": "https://github.com/Ysn4Irix/idiom#readme",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.1",
+		"express": "^4.18.1",
+		"express-rate-limit": "^6.6.0",
+		"helmet": "^6.0.0",
+		"morgan": "^1.10.0",
+		"node-fetch": "^2.6.7",
+		"response-time": "^2.3.2",
+		"signale": "^1.4.0"
+	},
+	"devDependencies": {
+		"@types/express": "^4.17.13",
+		"@types/node": "^18.7.13",
+		"cross-env": "^7.0.3",
+		"nodemon": "^2.0.19",
+		"prettier": "^2.7.1"
+	}
+}

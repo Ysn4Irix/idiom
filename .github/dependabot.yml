@@ -1,0 +1,22 @@
+version: 2
+updates:
+  # Fetch and update latest `npm` packages
+  - package-ecosystem: npm
+    directory: '/client'
+    schedule:
+      interval: weekly
+      time: '00:00'
+  - package-ecosystem: npm
+    directory: '/server'
+    schedule:
+      interval: weekly
+      time: '00:00'
+    open-pull-requests-limit: 10
+    reviewers:
+      - ysn4irix
+    assignees:
+      - ysn4irix
+    commit-message:
+      prefix: fix
+      prefix-development: chore
+      include: scope
