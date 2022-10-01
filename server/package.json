@@ -30,7 +30,7 @@
 		"express-rate-limit": "^6.6.0",
 		"helmet": "^6.0.0",
 		"morgan": "^1.10.0",
-		"node-fetch": "2.6.7",
+		"node-fetch": "3.2.10",
 		"response-time": "^2.3.2",
 		"signale": "^1.4.0"
 	},
