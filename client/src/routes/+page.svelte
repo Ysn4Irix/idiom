@@ -22,6 +22,10 @@
   }
 </script>
 
+<svelte:head>
+	<title>idiom</title>
+</svelte:head>
+
 <main>
   <div class="hero flex flex-col mt-16">
     <img
