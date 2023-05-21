@@ -8,7 +8,7 @@
   const getPhrase = async () => {
     try {
       const response = await fetch(
-        `https://idiom.ysnirix.live/api/${vars.query}`
+        `https://idiom-api.su.ysnirix.live/api/${vars.query}`
       )
 
       vars.error = ''

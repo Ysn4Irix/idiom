@@ -60,11 +60,11 @@ To form a phrase, connect the type(s) of words you want with a @. For example, t
 
 #### API
 
-You can make a `GET` request to [https://idiom.ysnirix.live/api/PHRASE](https://idiom.ysnirix.live/api/), where PHRASE is the type of phrase desired.
+You can make a `GET` request to [https://idiom-api.su.ysnirix.live/api/PHRASE](https://idiom-api.su.ysnirix.live/api/), where PHRASE is the type of phrase desired.
 
 ```bash
 curl --request GET \
-  --url 'https://idiom.ysnirix.live/api/the%20@pluralNoun%20is%20@gerund'
+  --url 'https://idiom-api.su.ysnirix.live/api/the%20@pluralNoun%20is%20@gerund'
 ```
 
 Example response

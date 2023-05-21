@@ -1,6 +1,6 @@
 FROM --platform=arm64 node:18-alpine
 WORKDIR /app
-COPY package.json ./
+COPY ./server/package.json ./
 RUN npm install
 COPY ./server .
 RUN npm prune --production
