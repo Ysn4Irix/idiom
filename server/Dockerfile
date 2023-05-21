@@ -2,7 +2,7 @@ FROM --platform=arm64 node:18-alpine
 WORKDIR /app
 COPY package.json ./
 RUN npm install
-COPY . .
+COPY ./server .
 RUN npm prune --production
 ENV PORT 80
 EXPOSE 80
