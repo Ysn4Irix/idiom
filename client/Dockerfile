@@ -1,4 +1,4 @@
-FROM --platform=arm64 node:18-alpine
+FROM --platform=arm64 node:16-alpine
 WORKDIR /app
 COPY ./client/package.json ./
 RUN npm install
