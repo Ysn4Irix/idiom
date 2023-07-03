@@ -30,7 +30,7 @@
 	},
 	"homepage": "https://github.com/Ysn4Irix/idiom#readme",
 	"dependencies": {
-		"daisyui": "^2.31.0",
+		"daisyui": "^3.1.7",
 		"@sveltejs/adapter-node": "next"
 	},
 	"devDependencies": {
