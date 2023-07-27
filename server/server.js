@@ -17,7 +17,7 @@ app.use(helmet())
 app.use(cors({
 	origin:
 	process.env.NODE_ENV === 'production'
-			? 'https://idiom.su.ysnirix.live'
+			? 'https://idiom.su.ysnirix.xyz'
 			: 'http://localhost:5173',
 	optionsSuccessStatus: 200
 }))
