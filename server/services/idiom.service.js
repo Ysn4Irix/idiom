@@ -6,7 +6,7 @@ const fetch = require('node-fetch')
  * @returns {Promise<string>}
  */
 const randomWord = async wordType =>
-	await (await fetch(`https://idiom-api.su.ysnirix.live/db/${wordType}`)).text()
+	await (await fetch(`https://idiom-api.su.ysnirix.xyz/db/${wordType}`)).text()
 
 /**
  *
